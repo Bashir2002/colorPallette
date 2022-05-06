@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: grid;
+  place-content: center;
+  height: 100vh;
+}
+.container {
+  height: 350px;
+  width: 500px;
+  padding: 40px;
+  background-color: #705b5b;
+  text-align: center;
+}
+.box {
+  height: 200px;
+  width: 200px;
+  margin: 0 auto;
+  background-color: red;
+}
+span {
+  display: block;
+  letter-spacing: 4px;
+  font-size: 25px;
+  margin: 10px 0;
+}
+button {
+  padding: 5px 20px;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+}
